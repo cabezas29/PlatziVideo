@@ -13,9 +13,25 @@ const App = () => (
     <Header />
     <Searchs />
 
-    <Categories>
+    <Categories titleItem='Mi lista'>
       <Carousel>
         <CarouselItem />
+        <CarouselItem />
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
+    </Categories>
+
+    <Categories titleItem='Tendencias'>
+      <Carousel>
+        <CarouselItem />
+        <CarouselItem />
+        <CarouselItem />
+      </Carousel>
+    </Categories>
+
+    <Categories titleItem='Originales de Platzi Video'>
+      <Carousel>
         <CarouselItem />
         <CarouselItem />
         <CarouselItem />
