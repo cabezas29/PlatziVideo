@@ -60,4 +60,5 @@ module.exports = {
       filename: 'assets/[name].css',
     }),
   ],
+  devtool: 'eval-source-map',
 };
